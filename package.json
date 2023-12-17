@@ -2,10 +2,10 @@
   "name": "codio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "style": "eslint *.js"
+    "style": "eslint *.js",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +16,8 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^16.4.0",
     "eslint-plugin-promise": "^6.1.1"
+  },
+  "dependencies": {
+    "parcel": "^2.10.3"
   }
 }
